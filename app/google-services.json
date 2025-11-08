@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895619387503",
+    "project_id": "fbprueba-usat7152",
+    "storage_bucket": "fbprueba-usat7152.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895619387503:android:dfbc7b8bde160ad1093d9a",
+        "android_client_info": {
+          "package_name": "com.example.fbprueba_7152"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0T6Ox7VKj1BeSBiRoOpb4fupOHHNDzrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
