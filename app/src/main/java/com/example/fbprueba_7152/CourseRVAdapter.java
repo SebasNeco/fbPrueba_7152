@@ -21,7 +21,11 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
     private Context context;
     private CourseClickInterface courseClickInterface;
     int lastPos = -1;
-
+    public CourseRVAdapter(ArrayList<CourseRVModal> courseRVModalArrayList, Context context, CourseClickInterface courseClickInterface) {
+        this.courseRVModalArrayList = courseRVModalArrayList;
+        this.context = context;
+        this.courseClickInterface = courseClickInterface;
+    }
 
     @NonNull
     @Override
@@ -29,6 +33,7 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
         View view = LayoutInflater.from(context).inflate(R.layout.course_rv_item, parent, false);
         return new ViewHolder(view);
     }
+
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
